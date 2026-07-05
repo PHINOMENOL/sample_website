@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - SAFARIs TOURs</title>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <h1>Contact Us</h1>
+    <p>Get in touch with SAFARIs TOURs</p>
+</div>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <a href="index.html" class="nav-btn">HOME</a>
+    <a href="about.html" class="nav-btn">ABOUT</a>
+    <a href="services.html" class="nav-btn">SERVICES</a>
+    <a href="gallery.html" class="nav-btn">GALLERY</a>
+    <a href="packages.html" class="nav-btn">PACKAGES</a>
+    <a href="Faq.html" class="nav-btn">FAQ</a>
+    <a href="contact.html" class="nav-btn">CONTACT</a>
+</div>
+<!-- CONTENT -->
+<div class="container">
+
+    <!-- FORM -->
+    <div class="form-box">
+
+        <h2>Send a Message</h2>
+
+        <form>
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name">
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter password">
+
+            <button type="submit">Submit</button>
+        </form>
+
+    </div>
+    
+    <!-- TABLE SECTION -->
+<div class="info-box">
+
+    <h2>Safari Packages</h2>
+
+    <table>
+        <tr>
+            <th>Destination</th>
+            <th>Days</th>
+            <th>Price</th>
+        </tr>
+
+        <tr>
+            <td>Serengeti</td>
+            <td>3 Days</td>
+            <td>$500</td>
+        </tr>
+
+        <tr>
+            <td>Ngorongoro</td>
+            <td>2 Days</td>
+            <td>$350</td>
+        </tr>
+
+        <tr>
+            <td>Tarangire</td>
+            <td>4 Days</td>
+            <td>$650</td>
+        </tr>
+    </table>
+
+</div>
+
+    <!-- LISTS -->
+    <div class="info-box">
+
+        <h2>Why Choose Us?</h2>
+
+        <!-- UNORDERED LIST -->
+        <ul>
+            <li>Professional safari guides</li>
+            <li>Affordable tour packages</li>
+            <li>Comfortable travel experience</li>
+        </ul>
+
+        <h2>Booking Steps</h2>
+
+        <!-- ORDERED LIST -->
+        <ol>
+            <li>Choose your safari package</li>
+            <li>Fill in the contact form</li>
+            <li>Confirm your booking</li>
+        </ol>
+
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 SAFARIs TOURs | Designed by Arthur</p>
+</footer>
+
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+/* HEADER */
+.header{
+    background: linear-gradient(to right, #92400E, #D97706);
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.header h1{
+    font-size:45px;
+}
+
+/* NAVBAR */
+.navbar{
+    background:#3b2f2f;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:15px;
+}
+
+.nav-btn{
+    color:white;
+    text-decoration:none;
+    background:#3b2f2f;
+    padding:10px 20px;
+    border-radius:20px;
+    transition:0.3s;
+}
+
+.nav-btn:hover{
+    background:#ff8c00;
+}
+
+/* CONTAINER */
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:40px 20px;
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+/* FORM */
+.form-box{
+    flex:1;
+    min-width:300px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.form-box input{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    margin-bottom:20px;
+    border:1px solid #ccc;
+    border-radius:10px;
+}
+
+.form-box button{
+    background:#3b2f2f;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.form-box button:hover{
+    background:#ff8c00;
+}
+
+/* LIST SECTION */
+.info-box{
+    flex:1;
+    min-width:150px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+/* TABLE */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table th{
+    background:#3b2f2f;
+    color:white;
+    padding:12px;
+}
+
+table td{
+    padding:12px;
+    border:1px solid #ccc;
+    text-align:center;
+    background:white;
+}
+
+table tr:hover{
+    background:#f2f2f2;
+}
+
+.info-box h2{
+    color:#78350f;
+}
+
+/* FOOTER */
+footer{
+    background:#3b2f2f;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
+</body>
+</html>

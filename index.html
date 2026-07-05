@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+<body bgcolor="white">
+    <div class="tab1">
+    <center>
+    <img src="logo.jpg" id="logo">
+    <h1>SAFARIs TOURs</h1>
+    </center>
+</div>
+
+
+<div class="tab2">
+     <marquee >
+    -Welcome to SAFIRIs Tours Website feel at home and enjoy the best services in the world of tourism and travel-
+</marquee>
+</div><br> 
+
+<div class="navbar">
+    <a href="index.html" class="nav-btn">HOME</a>
+    <a href="about.html" class="nav-btn">ABOUT</a>
+    <a href="services.html" class="nav-btn">SERVICES</a>
+    <a href="gallery.html" class="nav-btn">GALLERY</a>
+    <a href="packages.html" class="nav-btn">PACKAGES</a>
+    <a href="Faq.html" class="nav-btn">FAQ</a>
+    <a href="contact.html" class="nav-btn">CONTACT</a>
+</div>
+
+
+<div class="tab4">
+    <div class="slideshow">
+        <img src="gari.jpg" class="slide">
+        <img src="download.jpg" class="slide">
+        <img src="safariii.jpg" class="slide">
+    </div>
+</div>
+
+<div class="box">
+  <h2>Hello, I'm Arthur</h2>
+  <p>
+    My name is <strong>Arthur</strong>, a computer science student and the creator of Safiris Tours. 
+    I am passionate about technology, photography, and travel. 
+    This website represents my interest in tourism and my goal of creating 
+    unforgettable safari experiences.
+  </p>
+</div>
+
+
+<style>
+
+.tab2{
+     background-color: #3b2f2f; /* dark brown */
+     color: #fff;
+     border: 1px solid black;
+}
+ img{
+    width: 200px;
+    height: 200px;
+}
+.tab4{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* stack images on top of each other */
+.slideshow{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.slide{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    opacity: 0;
+    animation: fade 9s infinite;
+}
+
+/* delay each image */
+.slide:nth-child(1){
+    animation-delay: 0s;
+}
+.slide:nth-child(2){
+    animation-delay: 3s;
+}
+.slide:nth-child(3){
+    animation-delay: 6s;
+}
+
+/* fade effect */
+@keyframes fade{
+    0% {opacity: 0;}
+    10% {opacity: 1;}
+    30% {opacity: 1;}
+    40% {opacity: 0;}
+    100% {opacity: 0;}
+}
+.navbar{
+    background:#3b2f2f;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:15px;
+}
+.navbar a{
+    color:white;
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius:20px;
+    transition:0.3s;
+}
+
+.navbar a:hover{
+    background:#ff8c00;
+}
+
+/* CONTENT */
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #3b2f2f;
+    color: white;
+}
+.gari-img{
+    width: 1500px;
+    height: 500px;
+ }
+
+ .box {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #78350f; /* brown */
+    margin-bottom: 15px;
+}
+
+.box p {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+}
+</style>
+</body>
+</html>
